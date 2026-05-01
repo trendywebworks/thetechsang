@@ -35,19 +35,20 @@
 .organizations-main__lead {
 	margin: 0;
 	padding-top: 20px;
-	font-size: 26px;
-	line-height: 1.38;
-	font-weight: 300;
-	color: #555555;
+	font-size: clamp(1.7rem, 3vw, 2.4rem);
+	line-height: 1.2;
+	font-weight: 400;
+	color: #121212;
 }
 
 .organizations-main__intro {
 	margin: 0;
 	padding-top: 24px;
 	font-size: 18px;
-	line-height: 1.45;
+	line-height: 1.75;
 	font-weight: 300;
 	color: #555555;
+	max-width: 780px;
 }
 
 .organizations-main__subtitle {
@@ -63,44 +64,72 @@
 	margin: 0;
 	padding: 30px 0 0;
 	list-style: none;
+	counter-reset: organizations-benefit;
 }
 
 .organizations-main__list li {
-	position: relative;
-	padding-left: 24px;
+	display: grid;
+	grid-template-columns: 42px minmax(0, 1fr);
+	align-items: start;
+	column-gap: 16px;
 	font-size: 18px;
-	line-height: 1.4;
+	line-height: 1.7;
 	font-weight: 300;
 	color: #555555;
 }
 
 .organizations-main__list li + li {
-	margin-top: 20px;
+	margin-top: 18px;
 }
 
 .organizations-main__list li::before {
-	content: "";
-	position: absolute;
-	top: 0.52em;
-	left: 0;
-	width: 11px;
-	height: 11px;
+	counter-increment: organizations-benefit;
+	content: counter(organizations-benefit);
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 32px;
+	height: 32px;
 	border-radius: 50%;
 	background-image: linear-gradient(90deg, var(--tcube-grad-start) 0%, var(--tcube-grad-end) 100%);
-	transform: translateY(-50%);
+	font-size: 14px;
+	line-height: 1;
+	font-weight: 500;
+	color: #ffffff;
+	margin-top: 2px;
 }
 
 .organizations-main__closing {
 	margin: 0;
 	padding-top: 50px;
-	font-size: clamp(1.75rem, 3vw, 2rem);
-	line-height: 1.25;
+	font-size: clamp(1.55rem, 2.4vw, 1.9rem);
+	line-height: 1.35;
 	font-weight: 400;
+	color: #121212;
+}
+
+.organizations-main__contact {
+	margin: 0;
+	padding-top: 26px;
+	font-size: 1.15rem;
+	line-height: 1.6;
+	font-weight: 400;
+	color: #121212;
+}
+
+.organizations-main__contact-note {
+	margin: 0;
+	padding-top: 8px;
+	font-size: 1rem;
+	line-height: 1.6;
 	color: #555555;
 }
 
 .organizations-main__form-panel {
 	grid-area: form;
+	position: sticky;
+	top: 32px;
+	align-self: start;
 	padding: 30px;
 	background-color: #ffffff;
 }
@@ -266,11 +295,13 @@
 
 	.organizations-main__lead {
 		padding-top: 14px;
-		font-size: 20px;
+		font-size: 1.6rem;
 	}
 
 	.organizations-main__intro,
 	.organizations-main__list li,
+	.organizations-main__contact,
+	.organizations-main__contact-note,
 	.organizations-main__form-wrap label,
 	.organizations-main__form-wrap input[type="text"],
 	.organizations-main__form-wrap input[type="email"],
@@ -297,7 +328,13 @@
 		font-size: 24px;
 	}
 
+	.organizations-main__contact {
+		padding-top: 18px;
+	}
+
 	.organizations-main__form-panel {
+		position: static;
+		top: auto;
 		padding: 20px;
 	}
 
