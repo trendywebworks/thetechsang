@@ -21,10 +21,12 @@ Text Domain: thetcube
 
 span.blue {
 	color: #082ec7;
+	font-weight: bold;
 }
 
 span.pink {
 	color: #d10cc1;
+	font-weight: bold;
 }
 
 *,
@@ -391,7 +393,7 @@ a {
 .tcube-page-hero__content p {
 	margin: 0;
 	max-width: 820px;
-	font-size: 1.125rem;
+	font-size: 1.3rem;
 	line-height: 1.72;
 	color: #555555;
 }
