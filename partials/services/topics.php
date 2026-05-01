@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 ?>
-<section class="services-topics" aria-labelledby="services-topics-title">
+<section class="services-topics" id="services-topics" aria-labelledby="services-topics-title">
 	<div class="services-topics__grid">
 		<div class="services-topics__media">
 			<img
