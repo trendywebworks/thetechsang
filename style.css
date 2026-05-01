@@ -142,8 +142,8 @@ a {
 	grid-template-columns: auto minmax(0, 1fr) auto;
 	align-items: center;
 	column-gap: clamp(20px, 4vw, 56px);
-	padding-top: 26px;
-	padding-bottom: 26px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	max-width: none;
 	padding-inline: clamp(20px, 4vw, 48px);
 }
@@ -356,8 +356,8 @@ a {
 	}
 
 	.tcube-header__inner {
-		padding-top: 16px;
-		padding-bottom: 16px;
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
 
 	.tcube-nav__list {
@@ -383,8 +383,8 @@ a {
 @media (max-width: 1024px) {
 	.tcube-header__inner {
 		grid-template-columns: 1fr auto;
-		padding-top: 15px;
-		padding-bottom: 15px;
+		padding-top: 10px;
+		padding-bottom: 10px;
 		padding-inline: 15px;
 	}
 
