@@ -17,25 +17,19 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<span class="home-hero__title-line">A SANG OF MINDS</span>
 			</h1>
 			<p>
-				&lsquo;TECH&rsquo; is beyond technology - it represents knowledge, skills, and expertise across
+				<span class="blue">&lsquo;TECH&rsquo;</span> is beyond technology - it represents knowledge, skills, and expertise across
 				industries.
 			</p>
 			<p>
-				&lsquo;SANG&rsquo; is about coming together - a space to connect, share ideas, and grow.
+				<span class="pink">&lsquo;SANG&rsquo;</span> is about coming together - a space to connect, share ideas, and grow.
 			</p>
 			<p>
 				TECHSANG bridges organizations and experts - connecting real learning needs with real-world
 				experience.
 			</p>
 
-			<div class="home-hero__actions">
-				<a class="tcube-btn tcube-btn--gradient" href="<?php echo esc_url( home_url( '/for-organizations/' ) ); ?>">
-					<?php esc_html_e( 'Hire a Trainer', 'thetcube' ); ?>
-				</a>
-				<a class="tcube-btn tcube-btn--gradient" href="<?php echo esc_url( home_url( '/for-working-professionals/' ) ); ?>">
-					<?php esc_html_e( 'Become a Trainer', 'thetcube' ); ?>
-				</a>
-			</div>
+			<p><strong>TECH SANG — connecting experience with learning.</strong></p>
+			
 		</div>
 
 		<div class="home-hero__media">
