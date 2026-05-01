@@ -10,14 +10,17 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 ?>
 <section class="about-process" id="about-how-it-works" aria-labelledby="about-process-title">
-	<div class="tcube-container about-process__header">
-		<p class="about-section-eyebrow about-section-eyebrow--light"><?php esc_html_e( 'How It Works', 'thetcube' ); ?></p>
-		<h2 id="about-process-title" class="about-section-title about-section-title--light">
-			<?php esc_html_e( 'A clear path from training need to real delivery.', 'thetcube' ); ?>
-		</h2>
-	</div>
+	<div class="tcube-container about-process__intro">
+		<div class="about-process__content">
+			<p class="about-section-eyebrow about-section-eyebrow--light"><?php esc_html_e( 'How It Works', 'thetcube' ); ?></p>
+			<h2 id="about-process-title" class="about-section-title about-section-title--light">
+				<?php esc_html_e( 'A clear path from training need to real delivery.', 'thetcube' ); ?>
+			</h2>
+			<p class="about-process__lead">
+				<?php esc_html_e( 'Every engagement is designed to ensure relevance, clarity, and real learning outcomes.', 'thetcube' ); ?>
+			</p>
+		</div>
 
-	<div class="tcube-container about-process__grid">
 		<figure class="about-visual about-process__media">
 			<img
 				src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/home/for-working-professionals.webp' ); ?>"
@@ -27,7 +30,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 				loading="lazy"
 			>
 		</figure>
+	</div>
 
+	<div class="tcube-container">
 		<ol class="about-process__steps">
 			<li class="about-process__step">
 				<span class="about-process__step-number">01</span>
@@ -50,13 +55,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<p><?php esc_html_e( 'Training sessions and workshops are delivered in-person or virtually, based on requirement and convenience.', 'thetcube' ); ?></p>
 			</li>
 		</ol>
-	</div>
-
-	<div class="tcube-container">
-		<div class="about-process__outcome">
-			<p>
-				<?php esc_html_e( 'Every engagement is designed to ensure relevance, clarity, and real learning outcomes.', 'thetcube' ); ?>
-			</p>
-		</div>
 	</div>
 </section>
