@@ -19,6 +19,14 @@ Text Domain: thetcube
 	--tcube-container-width: 1350px;
 }
 
+span.blue {
+	color: #082ec7;
+}
+
+span.pink {
+	color: #d10cc1;
+}
+
 *,
 *::before,
 *::after {
@@ -388,7 +396,7 @@ a {
 	color: #555555;
 }
 
-.tcube-page-hero__content p + p {
+.tcube-page-hero__content p+p {
 	margin-top: 16px;
 }
 
