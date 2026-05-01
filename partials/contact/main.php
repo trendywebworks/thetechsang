@@ -9,13 +9,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 ?>
-<section class="contact-main" aria-labelledby="contact-main-title">
+<section class="contact-main" id="contact-details" aria-labelledby="contact-main-title">
 	<div class="tcube-container">
 		<div class="contact-main__layout">
 			<div class="contact-main__heading-wrap">
-				<h1 id="contact-main-title" class="contact-main__heading">
+				<h2 id="contact-main-title" class="contact-main__heading">
 					<?php esc_html_e( 'We want to hear from you.', 'thetcube' ); ?>
-				</h1>
+				</h2>
 			</div>
 
 			<div class="contact-main__details">
@@ -30,9 +30,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 				</a>
 			</div>
 
-			<div class="contact-main__form">
+			<div class="contact-main__form" id="contact-form">
 				<?php
-				if ( shortcode_exists( 'contact-form-7' ) ) {
+					if ( shortcode_exists( 'contact-form-7' ) ) {
 					echo do_shortcode( '[contact-form-7 id="43" title="Contact form"]' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 				} else {
 					?>

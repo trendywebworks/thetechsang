@@ -28,10 +28,10 @@ get_header();
 			'primary_href'    => '#organizations-form',
 			'secondary_label' => __( 'Why TECH SANG', 'thetcube' ),
 			'secondary_href'  => '#organizations-overview',
-			'image'           => get_template_directory_uri() . '/assets/images/home/for-it-companies.webp',
-			'image_alt'       => __( 'Organizations training with TECH SANG', 'thetcube' ),
-			'image_width'     => 1500,
-			'image_height'    => 1500,
+			'image'           => get_template_directory_uri() . '/assets/images/home/hero-main.webp',
+			'image_alt'       => __( 'TECH SANG training collaboration', 'thetcube' ),
+			'image_width'     => 928,
+			'image_height'    => 1000,
 		)
 	);
 	?>
