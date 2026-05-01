@@ -9,13 +9,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 ?>
-<section class="professionals-main" aria-labelledby="professionals-main-title">
+<section class="professionals-main" id="professionals-overview" aria-labelledby="professionals-main-title">
 	<div class="tcube-container">
 		<div class="professionals-main__grid">
 			<div class="professionals-main__content">
-				<h1 id="professionals-main-title" class="professionals-main__title">
+				<h2 id="professionals-main-title" class="professionals-main__title">
 					<?php esc_html_e( 'For Working Professionals', 'thetcube' ); ?>
-				</h1>
+				</h2>
 
 				<p class="professionals-main__lead">
 					<?php esc_html_e( 'Do you love teaching?', 'thetcube' ); ?>
@@ -40,7 +40,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				</p>
 			</div>
 
-			<div class="professionals-main__form-panel">
+			<div class="professionals-main__form-panel" id="professionals-form">
 				<h2 class="professionals-main__form-title"><?php esc_html_e( 'Become a Tech Sang Trainer', 'thetcube' ); ?></h2>
 
 				<div class="professionals-main__form-wrap">

@@ -9,16 +9,16 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 ?>
-<section class="organizations-main" aria-labelledby="organizations-main-title">
+<section class="organizations-main" id="organizations-overview" aria-labelledby="organizations-main-title">
 	<div class="tcube-container">
 		<div class="organizations-main__grid">
 			<div class="organizations-main__content">
 				<p class="organizations-main__eyebrow"><?php esc_html_e( 'For Organizations', 'thetcube' ); ?></p>
 
-				<h1 id="organizations-main-title" class="organizations-main__title">
+				<h2 id="organizations-main-title" class="organizations-main__title">
 					<span class="organizations-main__title-line"><?php esc_html_e( 'LOOKING TO', 'thetcube' ); ?></span>
 					<span class="organizations-main__title-line"><?php esc_html_e( 'UPSKILL YOUR TEAMS', 'thetcube' ); ?></span>
-				</h1>
+				</h2>
 
 				<p class="organizations-main__intro">
 					<?php esc_html_e( 'Your teams need to stay sharp. Your business needs people who can think, adapt, and perform.', 'thetcube' ); ?>
@@ -57,7 +57,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				</p>
 			</div>
 
-			<div class="organizations-main__form-panel">
+			<div class="organizations-main__form-panel" id="organizations-form">
 				<h2 class="organizations-main__form-title"><?php esc_html_e( 'Hire a Tech Sang Trainer', 'thetcube' ); ?></h2>
 
 				<div class="organizations-main__form-wrap">

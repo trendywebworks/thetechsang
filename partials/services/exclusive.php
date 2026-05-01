@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 ?>
-<section class="services-exclusive" aria-labelledby="services-exclusive-title">
+<section class="services-exclusive" id="services-offerings" aria-labelledby="services-exclusive-title">
 	<div class="tcube-container">
 
 		<div class="services-exclusive__grid">
