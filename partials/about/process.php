@@ -21,7 +21,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			</p>
 		</div>
 
-		<figure class="about-visual about-process__media">
+		<figure class="about-process__media">
 			<img
 				src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/home/for-working-professionals.webp' ); ?>"
 				alt="<?php esc_attr_e( 'Placeholder visual for the TECH SANG process', 'thetcube' ); ?>"
