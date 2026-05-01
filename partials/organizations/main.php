@@ -13,31 +13,47 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<div class="tcube-container">
 		<div class="organizations-main__grid">
 			<div class="organizations-main__content">
+				<p class="organizations-main__eyebrow"><?php esc_html_e( 'For Organizations', 'thetcube' ); ?></p>
+
 				<h1 id="organizations-main-title" class="organizations-main__title">
-					<?php esc_html_e( 'For Organizations', 'thetcube' ); ?>
+					<span class="organizations-main__title-line"><?php esc_html_e( 'LOOKING TO', 'thetcube' ); ?></span>
+					<span class="organizations-main__title-line"><?php esc_html_e( 'UPSKILL YOUR TEAMS', 'thetcube' ); ?></span>
 				</h1>
 
-				<p class="organizations-main__lead">
-					<?php esc_html_e( 'Looking for a professional trainer for your team?', 'thetcube' ); ?>
+				<p class="organizations-main__intro">
+					<?php esc_html_e( 'Your teams need to stay sharp. Your business needs people who can think, adapt, and perform.', 'thetcube' ); ?>
 				</p>
 
 				<p class="organizations-main__intro">
-					<?php esc_html_e( "If you're an IT professional under 50 who enjoys sharing knowledge, conducting sessions, and mentoring others - Tech Sang is your platform.", 'thetcube' ); ?>
+					<?php esc_html_e( 'TECH SANG helps you make that happen.', 'thetcube' ); ?>
+				</p>
+
+				<p class="organizations-main__intro">
+					<?php esc_html_e( 'We connect you with experienced professionals who bring practical knowledge and real-world insights into every session. Whether it is technical skills, domain expertise, or workplace capabilities - we help you find the right trainer for your requirement.', 'thetcube' ); ?>
 				</p>
 
 				<h2 class="organizations-main__subtitle">
-					<?php esc_html_e( 'We welcome professionals who:', 'thetcube' ); ?>
+					<?php esc_html_e( 'Why Companies Choose TECH SANG:', 'thetcube' ); ?>
 				</h2>
 
-				<ul class="organizations-main__list">
-					<li><?php esc_html_e( 'Affordable and practical training sessions', 'thetcube' ); ?></li>
-					<li><?php esc_html_e( 'Trainers with real-time IT experience.', 'thetcube' ); ?></li>
-					<li><?php esc_html_e( 'Employees gain relevant, applicable skills.', 'thetcube' ); ?></li>
-					<li><?php esc_html_e( 'Ongoing weekly formats for continuous growth.', 'thetcube' ); ?></li>
-				</ul>
+				<ol class="organizations-main__list">
+					<li><?php esc_html_e( 'Access to experienced working professionals, not just full-time trainers', 'thetcube' ); ?></li>
+					<li><?php esc_html_e( 'Customized sessions based on your exact requirement', 'thetcube' ); ?></li>
+					<li><?php esc_html_e( 'Coverage across multiple industries and functions', 'thetcube' ); ?></li>
+					<li><?php esc_html_e( 'Focus on practical, applicable learning', 'thetcube' ); ?></li>
+					<li><?php esc_html_e( 'Flexible formats - workshops, seminars, ongoing sessions', 'thetcube' ); ?></li>
+				</ol>
 
 				<p class="organizations-main__closing">
-					<?php esc_html_e( "This isn't about money - it's about passion, purpose, and people.", 'thetcube' ); ?>
+					<?php esc_html_e( 'At TS, training is not a formality - it is a focused, outcome-driven experience.', 'thetcube' ); ?>
+				</p>
+
+				<p class="organizations-main__contact">
+					<?php esc_html_e( 'Call us directly to discuss your requirement', 'thetcube' ); ?>
+				</p>
+
+				<p class="organizations-main__contact-note">
+					<?php esc_html_e( '(No long forms. Just real conversations.)', 'thetcube' ); ?>
 				</p>
 			</div>
 
