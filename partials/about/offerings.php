@@ -12,7 +12,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 <section class="about-offerings" id="about-what-we-do" aria-labelledby="about-offerings-title">
 	<div class="tcube-container about-offerings__layout">
 		<figure class="about-visual about-offerings__media">
-			<span class="about-visual__badge"><?php esc_html_e( 'Dummy image', 'thetcube' ); ?></span>
 			<img
 				src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/services/topics-main.webp' ); ?>"
 				alt="<?php esc_attr_e( 'Placeholder visual for training delivery and coordination', 'thetcube' ); ?>"

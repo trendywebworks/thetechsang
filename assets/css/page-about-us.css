@@ -44,7 +44,7 @@
 .about-visual {
 	position: relative;
 	margin: 0;
-	border-radius: 28px;
+	border-radius: 0;
 	overflow: hidden;
 	background:
 		linear-gradient(135deg, rgba(8, 46, 199, 0.18), rgba(209, 12, 193, 0.22));
@@ -68,21 +68,6 @@
 	height: 100%;
 	min-height: 100%;
 	object-fit: cover;
-}
-
-.about-visual__badge {
-	position: absolute;
-	top: 18px;
-	left: 18px;
-	z-index: 1;
-	display: inline-flex;
-	align-items: center;
-	padding: 8px 12px;
-	border-radius: 999px;
-	background-color: rgba(255, 255, 255, 0.92);
-	font-size: 0.875rem;
-	font-weight: 500;
-	color: #121212;
 }
 
 .about-btn--secondary {
@@ -148,7 +133,11 @@
 	min-height: 620px;
 }
 
-.about-story,
+.about-story {
+	padding: 90px 0 110px;
+	background-color: #ffffff;
+}
+
 .about-offerings {
 	padding: 0 0 110px;
 }
@@ -174,16 +163,10 @@
 	margin-top: 16px;
 }
 
-.about-story__stack {
-	display: grid;
-	gap: 24px;
-}
-
 .about-story__media {
 	min-height: 380px;
 }
 
-.about-story__card,
 .about-info-card,
 .about-process__outcome {
 	padding: 32px;
@@ -193,7 +176,6 @@
 	box-shadow: 0 24px 40px rgba(18, 18, 18, 0.08);
 }
 
-.about-story__card-intro,
 .about-info-card h3 {
 	margin: 0 0 18px;
 	font-size: 1.45rem;
@@ -213,6 +195,14 @@
 	font-size: 1.05rem;
 	line-height: 1.7;
 	color: #555555;
+}
+
+.about-story__details {
+	margin-top: 28px;
+}
+
+.about-story__details .about-feature-list {
+	margin-top: 18px;
 }
 
 .about-feature-list li + li {
@@ -402,6 +392,10 @@
 	.about-process {
 		padding-bottom: 84px;
 	}
+
+	.about-story {
+		padding-top: 72px;
+	}
 }
 
 @media (max-width: 767px) {
@@ -433,7 +427,6 @@
 		min-height: 300px;
 	}
 
-	.about-story__card,
 	.about-info-card,
 	.about-process__step,
 	.about-process__outcome,

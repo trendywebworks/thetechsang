@@ -26,22 +26,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<p>
 				<?php esc_html_e( 'We act as a bridge between organizations and experienced professionals, enabling meaningful training, workshops, and knowledge sessions across industries.', 'thetcube' ); ?>
 			</p>
-		</div>
 
-		<div class="about-story__stack">
-			<figure class="about-visual about-story__media">
-				<span class="about-visual__badge"><?php esc_html_e( 'Dummy image', 'thetcube' ); ?></span>
-				<img
-					src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/home/hero-main.webp' ); ?>"
-					alt="<?php esc_attr_e( 'Placeholder visual of professionals collaborating', 'thetcube' ); ?>"
-					width="928"
-					height="1000"
-					loading="lazy"
-				>
-			</figure>
-
-			<div class="about-story__card">
-				<p class="about-story__card-intro">
+			<div class="about-story__details">
+				<p>
 					<?php esc_html_e( 'At TS, learning is not about theory-heavy lectures or generic programs. It is about:', 'thetcube' ); ?>
 				</p>
 				<ul class="about-feature-list">
@@ -52,6 +39,16 @@ if ( ! defined( 'ABSPATH' ) ) {
 				</ul>
 			</div>
 		</div>
+
+		<figure class="about-visual about-story__media">
+			<img
+				src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/home/hero-main.webp' ); ?>"
+				alt="<?php esc_attr_e( 'Placeholder visual of professionals collaborating', 'thetcube' ); ?>"
+				width="928"
+				height="1000"
+				loading="lazy"
+			>
+		</figure>
 	</div>
 
 	<div class="tcube-container">

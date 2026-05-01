@@ -19,7 +19,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	<div class="tcube-container about-process__grid">
 		<figure class="about-visual about-process__media">
-			<span class="about-visual__badge"><?php esc_html_e( 'Dummy image', 'thetcube' ); ?></span>
 			<img
 				src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/home/for-working-professionals.webp' ); ?>"
 				alt="<?php esc_attr_e( 'Placeholder visual for the TECH SANG process', 'thetcube' ); ?>"

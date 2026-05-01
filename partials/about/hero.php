@@ -35,7 +35,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 
 		<figure class="about-visual about-hero__media">
-			<span class="about-visual__badge"><?php esc_html_e( 'Dummy image', 'thetcube' ); ?></span>
 			<img
 				src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/about/about-main.webp' ); ?>"
 				alt="<?php esc_attr_e( 'Placeholder visual for the TECH SANG community', 'thetcube' ); ?>"
