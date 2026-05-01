@@ -37,6 +37,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 					<li><?php esc_html_e( 'Experience-led learning', 'thetcube' ); ?></li>
 					<li><?php esc_html_e( 'Interactive sessions that go beyond slides', 'thetcube' ); ?></li>
 				</ul>
+				<p class="about-story__community-text">
+					<?php esc_html_e( 'We are building a community ("SANG") of professionals and organizations who believe in sharing knowledge, exchanging ideas, and growing together.', 'thetcube' ); ?>
+				</p>
 			</div>
 		</div>
 
@@ -49,13 +52,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 				loading="lazy"
 			>
 		</figure>
-	</div>
-
-	<div class="tcube-container">
-		<div class="about-story__community">
-			<p>
-				<?php esc_html_e( 'We are building a community ("SANG") of professionals and organizations who believe in sharing knowledge, exchanging ideas, and growing together.', 'thetcube' ); ?>
-			</p>
-		</div>
 	</div>
 </section>
