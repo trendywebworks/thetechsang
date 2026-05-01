@@ -8,14 +8,14 @@
 
 .home-hero__inner {
 	display: grid;
-	grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+	grid-template-columns: minmax(0, 1.18fr) minmax(0, 0.82fr);
 	align-items: center;
 	gap: 48px;
 }
 
 .home-hero__title {
 	margin: 0 0 24px;
-	font-size: clamp(3rem, 8vw, 6.25rem);
+	font-size: clamp(3rem, 6vw, 5rem);
 	line-height: 0.95;
 	letter-spacing: 0.015em;
 	color: #121212;
@@ -23,6 +23,7 @@
 
 .home-hero__title-line {
 	display: block;
+	white-space: nowrap;
 	background-image: linear-gradient(90deg, #082ec7 0%, #d10cc1 100%);
 	-webkit-background-clip: text;
 	background-clip: text;
@@ -184,6 +185,10 @@
 }
 
 @media (max-width: 767px) {
+
+	.home-hero__title {
+		font-size: clamp(2.15rem, 11vw, 3rem);
+	}
 
 	.home-hero__content p,
 	.home-audience-card p,

@@ -13,18 +13,19 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<div class="tcube-container home-hero__inner">
 		<div class="home-hero__content">
 			<h1 id="home-hero-title" class="home-hero__title">
-				<span class="home-hero__title-line">TECH.</span>
-				<span class="home-hero__title-line">TRAIN.</span>
-				<span class="home-hero__title-line">TRANSFORM.</span>
+				<span class="home-hero__title-line">NOT JUST TECH.</span>
+				<span class="home-hero__title-line">A SANG OF MINDS</span>
 			</h1>
 			<p>
-				Tech Sang is an IT training collaboration platform designed to connect IT companies with skilled
-				trainers and mentors. A platform connecting IT companies with professionals who love to teach,
-				train, and inspire.
+				&lsquo;TECH&rsquo; is beyond technology - it represents knowledge, skills, and expertise across
+				industries.
 			</p>
 			<p>
-				At Tech Sang, we believe that real learning comes from people who are passionate about sharing
-				knowledge. That is why we have built a unique platform.
+				&lsquo;SANG&rsquo; is about coming together - a space to connect, share ideas, and grow.
+			</p>
+			<p>
+				TECHSANG bridges organizations and experts - connecting real learning needs with real-world
+				experience.
 			</p>
 
 			<div class="home-hero__actions">
