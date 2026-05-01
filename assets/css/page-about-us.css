@@ -139,7 +139,8 @@
 }
 
 .about-offerings {
-	padding: 0 0 110px;
+	padding: 90px 0 110px;
+	background-color: #f3f7ff;
 }
 
 .about-story__grid,
@@ -167,8 +168,7 @@
 	min-height: 380px;
 }
 
-.about-info-card,
-.about-process__outcome {
+.about-info-card {
 	padding: 32px;
 	border-radius: 28px;
 	background-color: #ffffff;
@@ -277,20 +277,27 @@
 		#08111f;
 }
 
-.about-process__header {
-	max-width: 760px;
+.about-process__intro {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) minmax(320px, 0.9fr);
+	align-items: center;
+	gap: 42px;
+	margin-bottom: 34px;
 }
 
-.about-process__grid {
-	display: grid;
-	grid-template-columns: minmax(300px, 0.88fr) minmax(0, 1.12fr);
-	align-items: start;
-	gap: 34px;
-	margin-top: 40px;
+.about-process__content {
+	max-width: 720px;
+}
+
+.about-process__lead {
+	margin: 0;
+	font-size: 1.08rem;
+	line-height: 1.8;
+	color: rgba(255, 255, 255, 0.86);
 }
 
 .about-process__media {
-	min-height: 100%;
+	min-height: 420px;
 }
 
 .about-process__steps {
@@ -333,26 +340,11 @@
 	color: rgba(255, 255, 255, 0.86);
 }
 
-.about-process__outcome {
-	margin-top: 28px;
-	max-width: 760px;
-	background:
-		linear-gradient(135deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.06));
-	border-color: rgba(255, 255, 255, 0.15);
-}
-
-.about-process__outcome p {
-	margin: 0;
-	font-size: 1.08rem;
-	line-height: 1.8;
-	color: #ffffff;
-}
-
 @media (max-width: 1200px) {
 	.about-hero__inner,
 	.about-story__grid,
 	.about-offerings__layout,
-	.about-process__grid {
+	.about-process__intro {
 		gap: 30px;
 	}
 
@@ -369,7 +361,7 @@
 	.about-hero__inner,
 	.about-story__grid,
 	.about-offerings__layout,
-	.about-process__grid {
+	.about-process__intro {
 		grid-template-columns: 1fr;
 	}
 
@@ -396,6 +388,10 @@
 	.about-story {
 		padding-top: 72px;
 	}
+
+	.about-offerings {
+		padding-top: 72px;
+	}
 }
 
 @media (max-width: 767px) {
@@ -412,7 +408,7 @@
 	.about-offerings__content p:not(.about-section-eyebrow),
 	.about-story__community p,
 	.about-offerings__notes p,
-	.about-process__outcome p {
+	.about-process__lead {
 		font-size: 1rem;
 	}
 
@@ -429,7 +425,6 @@
 
 	.about-info-card,
 	.about-process__step,
-	.about-process__outcome,
 	.about-story__community {
 		padding: 24px 20px;
 		border-radius: 22px;
