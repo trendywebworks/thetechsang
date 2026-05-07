@@ -28,7 +28,7 @@ get_header();
 			'primary_href'    => '#professionals-form',
 			'secondary_label' => __( 'See Who We Welcome', 'thetcube' ),
 			'secondary_href'  => '#professionals-overview',
-			'image'           => get_template_directory_uri() . '/assets/images/home/hero-main.webp',
+			'image'           => get_template_directory_uri() . '/assets/images/home/for-working-professionals.webp',
 			'image_alt'       => __( 'TECH SANG training collaboration', 'thetcube' ),
 			'image_width'     => 928,
 			'image_height'    => 1000,
