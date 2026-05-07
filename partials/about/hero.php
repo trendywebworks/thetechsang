@@ -28,7 +28,7 @@ get_template_part(
 		'primary_href'    => '#about-what-we-do',
 		'secondary_label' => __( 'How It Works', 'thetcube' ),
 		'secondary_href'  => '#about-how-it-works',
-		'image'           => get_template_directory_uri() . '/assets/images/home/hero-main.webp',
+		'image'           => get_template_directory_uri() . '/assets/images/home/about-us-1.webp',
 		'image_alt'       => __( 'TECH SANG training collaboration', 'thetcube' ),
 		'image_width'     => 928,
 		'image_height'    => 1000,
