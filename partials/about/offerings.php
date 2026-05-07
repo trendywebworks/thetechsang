@@ -37,7 +37,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 		<figure class="about-visual about-offerings__media">
 			<img
-				src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/services/topics-main.webp' ); ?>"
+				src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/about/about-us-3.webp' ); ?>"
 				alt="<?php esc_attr_e( 'Placeholder visual for training delivery and coordination', 'thetcube' ); ?>"
 				width="1500"
 				height="1500"
