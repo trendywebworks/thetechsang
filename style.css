@@ -52,6 +52,10 @@ a {
 	color: inherit;
 }
 
+img {
+	background-color: transparent;
+}
+
 .wpcf7 form.sent .wpcf7-response-output {
 	border-color: #46b450;
 	margin: 20px 0 0 0;
@@ -219,19 +223,13 @@ a {
 	position: relative;
 	z-index: 0;
 	isolation: isolate;
-	border: 1px solid transparent;
-	border-image: linear-gradient(90deg, var(--tcube-grad-start) 0%, var(--tcube-grad-end) 100%) 1;
+	border: 0;
+	border-image: none;
 	transition: color 0.25s ease;
 }
 
 .tcube-nav__list>.menu-item>a::before {
-	content: "";
-	position: absolute;
-	inset: 0;
-	z-index: -1;
-	opacity: 0;
-	background-image: linear-gradient(90deg, var(--tcube-grad-start) 0%, var(--tcube-grad-end) 100%);
-	transition: opacity 0.25s ease;
+	content: none;
 }
 
 .tcube-nav__list>.menu-item>a:hover,
@@ -239,15 +237,7 @@ a {
 .tcube-nav__list>.menu-item.current-menu-item>a,
 .tcube-nav__list>.menu-item.current_page_item>a,
 .tcube-nav__list>.menu-item.current-menu-ancestor>a {
-	color: var(--tcube-white);
-}
-
-.tcube-nav__list>.menu-item>a:hover::before,
-.tcube-nav__list>.menu-item>a:focus-visible::before,
-.tcube-nav__list>.menu-item.current-menu-item>a::before,
-.tcube-nav__list>.menu-item.current_page_item>a::before,
-.tcube-nav__list>.menu-item.current-menu-ancestor>a::before {
-	opacity: 1;
+	color: var(--tcube-grad-start);
 }
 
 .tcube-nav .menu-item-has-children>a::after {
@@ -349,7 +339,7 @@ a {
 
 .tcube-page-hero__inner {
 	display: grid;
-	grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
+	grid-template-columns: repeat(2, minmax(0, 1fr));
 	align-items: center;
 	gap: 54px;
 }
@@ -375,7 +365,7 @@ a {
 
 .tcube-page-hero__title {
 	margin: 0 0 24px;
-	font-size: clamp(3rem, 6vw, 5rem);
+	font-size: clamp(2.4rem, 4.8vw, 4rem);
 	line-height: 0.95;
 	letter-spacing: 0.015em;
 	color: #121212;
@@ -412,9 +402,9 @@ a {
 .tcube-page-hero__media img {
 	display: block;
 	width: 100%;
-	max-width: 560px;
+	max-width: none;
 	height: auto;
-	margin-left: auto;
+	margin-left: 0;
 }
 
 .tcube-menu-toggle {
@@ -490,7 +480,7 @@ a {
 
 	.tcube-page-hero__media img {
 		margin-left: 0;
-		max-width: 680px;
+		max-width: 100%;
 	}
 
 	.tcube-header__inner {
@@ -629,7 +619,6 @@ a {
 	width: 200px;
 	max-width: 100%;
 	height: auto;
-	filter: brightness(0) invert(1);
 }
 
 .tcube-footer__social {
@@ -781,7 +770,7 @@ a {
 @media (max-width: 767px) {
 
 	.tcube-page-hero__title {
-		font-size: clamp(2.15rem, 11vw, 3rem);
+		font-size: clamp(1.75rem, 8.8vw, 2.4rem);
 	}
 
 	.tcube-page-hero__title-line {
