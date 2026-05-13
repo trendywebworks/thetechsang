@@ -16,8 +16,8 @@ get_header();
 		array(
 			'id_suffix'       => 'organizations',
 			'title_lines'     => array(
-				__( 'TRAINING', 'thetcube' ),
-				__( 'THAT FITS REAL WORK', 'thetcube' ),
+				__( 'TRAINING THAT', 'thetcube' ),
+				__( 'FITS REAL WORK', 'thetcube' ),
 			),
 			'paragraphs'      => array(
 				__( 'Build sharper teams with experienced professionals who bring practical knowledge and real-world insight into every session.', 'thetcube' ),
