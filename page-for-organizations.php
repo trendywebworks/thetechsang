@@ -15,7 +15,6 @@ get_header();
 		null,
 		array(
 			'id_suffix'       => 'organizations',
-			'eyebrow'         => __( 'For Organizations', 'thetcube' ),
 			'title_lines'     => array(
 				__( 'TRAINING', 'thetcube' ),
 				__( 'THAT FITS REAL WORK', 'thetcube' ),

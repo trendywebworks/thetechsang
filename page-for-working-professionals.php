@@ -15,7 +15,6 @@ get_header();
 		null,
 		array(
 			'id_suffix'       => 'professionals',
-			'eyebrow'         => __( 'For Working Professionals', 'thetcube' ),
 			'title_lines'     => array(
 				__( 'SHARE WHAT', 'thetcube' ),
 				__( 'YOU KNOW', 'thetcube' ),

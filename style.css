@@ -344,25 +344,6 @@ img {
 	gap: 54px;
 }
 
-.tcube-page-hero__eyebrow {
-	display: inline-flex;
-	align-items: center;
-	gap: 10px;
-	margin: 0 0 18px;
-	font-size: 0.95rem;
-	font-weight: 500;
-	letter-spacing: 0.14em;
-	text-transform: uppercase;
-	color: #082ec7;
-}
-
-.tcube-page-hero__eyebrow::before {
-	content: "";
-	width: 42px;
-	height: 1px;
-	background-image: linear-gradient(90deg, #082ec7 0%, #d10cc1 100%);
-}
-
 .tcube-page-hero__title {
 	margin: 0 0 24px;
 	font-size: clamp(2.4rem, 4.8vw, 4rem);
@@ -783,11 +764,6 @@ img {
 
 	.tcube-page-hero__actions .tcube-btn {
 		width: 100%;
-	}
-
-	.tcube-page-hero__eyebrow {
-		font-size: 0.82rem;
-		letter-spacing: 0.12em;
 	}
 
 	.tcube-footer__links {

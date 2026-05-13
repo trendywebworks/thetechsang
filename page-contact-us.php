@@ -15,7 +15,6 @@ get_header();
 		null,
 		array(
 			'id_suffix'       => 'contact',
-			'eyebrow'         => __( 'Contact Us', 'thetcube' ),
 			'title_lines'     => array(
 				__( 'LET US', 'thetcube' ),
 				__( 'CONNECT', 'thetcube' ),
