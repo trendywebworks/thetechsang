@@ -15,7 +15,6 @@ get_template_part(
 	null,
 	array(
 		'id_suffix'       => 'about',
-		'eyebrow'         => __( 'About Us', 'thetcube' ),
 		'title_lines'     => array(
 			__( 'ABOUT', 'thetcube' ),
 			__( 'TECH SANG', 'thetcube' ),

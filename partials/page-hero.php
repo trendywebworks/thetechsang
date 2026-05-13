@@ -13,7 +13,6 @@ $hero_args = wp_parse_args(
 	isset( $args ) ? $args : array(),
 	array(
 		'id_suffix'       => 'page',
-		'eyebrow'         => '',
 		'title_lines'     => array(),
 		'paragraphs'      => array(),
 		'primary_label'   => '',
@@ -33,10 +32,6 @@ $hero_title_id = 'tcube-page-hero-title-' . sanitize_html_class( $hero_args['id_
 <section class="tcube-page-hero" aria-labelledby="<?php echo esc_attr( $hero_title_id ); ?>">
 	<div class="tcube-container tcube-page-hero__inner">
 		<div class="tcube-page-hero__content">
-			<?php if ( ! empty( $hero_args['eyebrow'] ) ) : ?>
-				<p class="tcube-page-hero__eyebrow"><?php echo esc_html( $hero_args['eyebrow'] ); ?></p>
-			<?php endif; ?>
-
 			<h1 id="<?php echo esc_attr( $hero_title_id ); ?>" class="tcube-page-hero__title">
 				<?php foreach ( $hero_args['title_lines'] as $title_line ) : ?>
 					<span class="tcube-page-hero__title-line"><?php echo esc_html( $title_line ); ?></span>

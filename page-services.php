@@ -15,7 +15,6 @@ get_header();
 		null,
 		array(
 			'id_suffix'       => 'services',
-			'eyebrow'         => __( 'Services', 'thetcube' ),
 			'title_lines'     => array(
 				__( 'LEARNING', 'thetcube' ),
 				__( 'THAT MOVES WORK', 'thetcube' ),
