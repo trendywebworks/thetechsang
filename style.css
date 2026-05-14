@@ -17,8 +17,8 @@ Text Domain: thetcube
 	--tcube-grad-start: #082ec7;
 	--tcube-grad-end: #d10cc1;
 	--tcube-container-width: 1200px;
-	--tcube-hero-heading-size: clamp(2.4rem, 4.8vw, 4rem);
-	--tcube-hero-heading-size-mobile: clamp(1.75rem, 8.8vw, 2.4rem);
+	--tcube-hero-heading-size: clamp(1.92rem, 3.84vw, 3.2rem);
+	--tcube-hero-heading-size-mobile: clamp(1.4rem, 7.04vw, 1.92rem);
 }
 
 span.blue {
