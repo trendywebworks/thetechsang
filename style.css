@@ -78,6 +78,12 @@ img {
 	color: #000000 !important;
 }
 
+p.about-process__lead,
+li.about-process__step p.tcube-reveal,
+p.services-topics__lead {
+	color: #ffffff !important;
+}
+
 .site-main .about-process p,
 .site-main .services-topics__panel p,
 .tcube-footer p {
