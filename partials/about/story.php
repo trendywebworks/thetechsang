@@ -45,7 +45,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 		<figure class="about-visual about-story__media">
 			<img
-				src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/about/learning-about-us.webp' ); ?>"
+				src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/about/about-us-2.webp' ); ?>"
 				alt="<?php esc_attr_e( 'Professionals learning together through a TECH SANG session', 'thetcube' ); ?>"
 				width="1200"
 				height="812"

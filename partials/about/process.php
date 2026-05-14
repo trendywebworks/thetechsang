@@ -23,7 +23,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 		<figure class="about-process__media">
 			<img
-				src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/home/for-working-professionals.webp' ); ?>"
+				src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/about/learning-about-us.webp' ); ?>"
 				alt="<?php esc_attr_e( 'Placeholder visual for the TECH SANG process', 'thetcube' ); ?>"
 				width="1500"
 				height="1500"
