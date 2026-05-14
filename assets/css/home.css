@@ -107,7 +107,7 @@
 .home-pillars__title {
 	margin: 0 auto 34px;
 	max-width: 1080px;
-	font-size: var(--tcube-hero-heading-size);
+	font-size: clamp(1.68rem, 3.36vw, 2.8rem);
 	line-height: 1.2;
 	text-transform: uppercase;
 	background-image: linear-gradient(90deg, #082ec7 0%, #d10cc1 100%);
@@ -191,7 +191,7 @@
 	}
 
 	.home-pillars__title {
-		font-size: var(--tcube-hero-heading-size-mobile);
+		font-size: clamp(1.23rem, 6.16vw, 1.68rem);
 	}
 
 	.home-hero__content p,
