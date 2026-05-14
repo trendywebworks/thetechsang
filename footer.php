@@ -32,11 +32,11 @@
 					<?php
 					wp_nav_menu(
 						array(
-							'theme_location' => 'footer_menu',
+							'theme_location' => 'primary',
 							'menu_id'        => 'footer-menu',
 							'menu_class'     => 'tcube-footer__list',
 							'container'      => false,
-							'fallback_cb'    => 'thetcube_footer_menu_fallback',
+							'fallback_cb'    => 'thetcube_primary_menu_fallback',
 						)
 					);
 					?>

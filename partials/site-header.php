@@ -37,12 +37,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 			?>
 		</nav>
 
-		<div class="tcube-header__cta">
-			<a class="tcube-btn tcube-btn--gradient" href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">
-				<?php esc_html_e( 'Contact Us', 'thetcube' ); ?>
-			</a>
-		</div>
-
 		<button
 			class="tcube-menu-toggle"
 			type="button"

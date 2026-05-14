@@ -112,7 +112,7 @@ if ( ! function_exists( 'thetcube_primary_menu_fallback' ) ) {
 	/**
 	 * Fallback menu when no primary menu is assigned.
 	 */
-	function thetcube_primary_menu_fallback() {
+	function thetcube_primary_menu_fallback( $args = array() ) {
 		$fallback_items = array(
 			array(
 				'label' => __( 'Home', 'thetcube' ),
@@ -140,7 +140,24 @@ if ( ! function_exists( 'thetcube_primary_menu_fallback' ) ) {
 			),
 		);
 
-		echo '<ul id="primary-menu" class="tcube-nav__list">';
+		$menu_id    = 'primary-menu';
+		$menu_class = 'tcube-nav__list';
+
+		if ( is_object( $args ) ) {
+			if ( ! empty( $args->menu_id ) ) {
+				$menu_id = $args->menu_id;
+			}
+
+			if ( ! empty( $args->menu_class ) ) {
+				$menu_class = $args->menu_class;
+			}
+		}
+
+		printf(
+			'<ul id="%1$s" class="%2$s">',
+			esc_attr( $menu_id ),
+			esc_attr( $menu_class )
+		);
 
 		foreach ( $fallback_items as $item ) {
 			printf(
