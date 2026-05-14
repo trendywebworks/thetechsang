@@ -41,7 +41,7 @@
 
 .organizations-main__title {
 	margin: 0 0 24px;
-	font-size: clamp(3rem, 6vw, 5rem);
+	font-size: var(--tcube-hero-heading-size);
 	line-height: 0.95;
 	letter-spacing: 0.015em;
 	color: #121212;
@@ -278,10 +278,6 @@
 		padding: 72px 0 96px;
 	}
 
-	.organizations-main__title {
-		font-size: clamp(2.9rem, 5.2vw, 4.6rem);
-	}
-
 	.organizations-main__subtitle {
 		font-size: 34px;
 	}
@@ -294,10 +290,6 @@
 @media (max-width: 1024px) {
 	.organizations-main {
 		padding: 64px 0 84px;
-	}
-
-	.organizations-main__title {
-		font-size: clamp(2.7rem, 6vw, 4rem);
 	}
 
 	.organizations-main__subtitle {
@@ -327,7 +319,7 @@
 	}
 
 	.organizations-main__title {
-		font-size: clamp(2.15rem, 11vw, 3rem);
+		font-size: var(--tcube-hero-heading-size-mobile);
 		margin-bottom: 20px;
 	}
 

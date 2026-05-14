@@ -25,7 +25,7 @@
 .contact-main__heading {
 	max-width: 540px;
 	margin: 0;
-	font-size: clamp(2.875rem, 6vw, 5.625rem);
+	font-size: var(--tcube-hero-heading-size);
 	font-weight: 700;
 	line-height: 1.08;
 	text-transform: uppercase;
@@ -213,7 +213,7 @@
 	}
 
 	.contact-main__heading {
-		font-size: 40px;
+		font-size: var(--tcube-hero-heading-size-mobile);
 	}
 
 	.contact-main__lead {

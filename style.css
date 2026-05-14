@@ -16,7 +16,9 @@ Text Domain: thetcube
 	--tcube-white: #ffffff;
 	--tcube-grad-start: #082ec7;
 	--tcube-grad-end: #d10cc1;
-	--tcube-container-width: 1350px;
+	--tcube-container-width: 1200px;
+	--tcube-hero-heading-size: clamp(2.4rem, 4.8vw, 4rem);
+	--tcube-hero-heading-size-mobile: clamp(1.75rem, 8.8vw, 2.4rem);
 }
 
 span.blue {
@@ -346,7 +348,7 @@ img {
 
 .tcube-page-hero__title {
 	margin: 0 0 24px;
-	font-size: clamp(2.4rem, 4.8vw, 4rem);
+	font-size: var(--tcube-hero-heading-size);
 	line-height: 0.95;
 	letter-spacing: 0.015em;
 	color: #121212;
@@ -751,7 +753,7 @@ img {
 @media (max-width: 767px) {
 
 	.tcube-page-hero__title {
-		font-size: clamp(1.75rem, 8.8vw, 2.4rem);
+		font-size: var(--tcube-hero-heading-size-mobile);
 	}
 
 	.tcube-page-hero__title-line {
