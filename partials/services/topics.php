@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<div class="services-topics__panel">
 			<div class="services-topics__inner">
 				<h2 id="services-topics-title" class="services-topics__title"><?php esc_html_e( 'Topics We Cover', 'thetcube' ); ?></h2>
-				<p class="services-topics__lead">
+				<p class="services-topics__lead txt-white">
 					<?php esc_html_e( 'We cover a wide spectrum of', 'thetcube' ); ?>
 					<span><?php esc_html_e( 'IT and tech-related subjects', 'thetcube' ); ?></span>,
 					<?php esc_html_e( 'delivered by professionals who use these tools daily:', 'thetcube' ); ?>

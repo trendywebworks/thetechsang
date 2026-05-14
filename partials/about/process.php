@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<h2 id="about-process-title" class="about-section-title about-section-title--light">
 				<?php esc_html_e( 'A clear path from training need to real delivery.', 'thetcube' ); ?>
 			</h2>
-			<p class="about-process__lead">
+			<p class="about-process__lead txt-white">
 				<?php esc_html_e( 'Every engagement is designed to ensure relevance, clarity, and real learning outcomes.', 'thetcube' ); ?>
 			</p>
 		</div>
@@ -36,23 +36,23 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<ol class="about-process__steps">
 			<li class="about-process__step">
 				<span class="about-process__step-number">01</span>
-				<p><?php esc_html_e( 'Organizations connect with TECH SANG with their training or workshop requirements - specific topics, domains, or skill areas.', 'thetcube' ); ?></p>
+				<p class="txt-white"><?php esc_html_e( 'Organizations connect with TECH SANG with their training or workshop requirements - specific topics, domains, or skill areas.', 'thetcube' ); ?></p>
 			</li>
 			<li class="about-process__step">
 				<span class="about-process__step-number">02</span>
-				<p><?php esc_html_e( 'Based on the need, TS identifies and aligns the most suitable trainers from its network of experienced professionals.', 'thetcube' ); ?></p>
+				<p class="txt-white"><?php esc_html_e( 'Based on the need, TS identifies and aligns the most suitable trainers from its network of experienced professionals.', 'thetcube' ); ?></p>
 			</li>
 			<li class="about-process__step">
 				<span class="about-process__step-number">03</span>
-				<p><?php esc_html_e( 'A structured plan is then shared, including training modules, session flow, timelines, and commercials.', 'thetcube' ); ?></p>
+				<p class="txt-white"><?php esc_html_e( 'A structured plan is then shared, including training modules, session flow, timelines, and commercials.', 'thetcube' ); ?></p>
 			</li>
 			<li class="about-process__step">
 				<span class="about-process__step-number">04</span>
-				<p><?php esc_html_e( 'Once aligned and approved, the engagement moves into execution.', 'thetcube' ); ?></p>
+				<p class="txt-white"><?php esc_html_e( 'Once aligned and approved, the engagement moves into execution.', 'thetcube' ); ?></p>
 			</li>
 			<li class="about-process__step">
 				<span class="about-process__step-number">05</span>
-				<p><?php esc_html_e( 'Training sessions and workshops are delivered in-person or virtually, based on requirement and convenience.', 'thetcube' ); ?></p>
+				<p class="txt-white"><?php esc_html_e( 'Training sessions and workshops are delivered in-person or virtually, based on requirement and convenience.', 'thetcube' ); ?></p>
 			</li>
 		</ol>
 	</div>

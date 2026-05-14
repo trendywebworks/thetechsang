@@ -21,6 +21,10 @@ Text Domain: thetcube
 	--tcube-hero-heading-size-mobile: clamp(1.4rem, 7.04vw, 1.92rem);
 }
 
+.txt-white {
+	color: #fff;
+}
+
 span.blue {
 	color: #082ec7;
 	font-weight: bold;
