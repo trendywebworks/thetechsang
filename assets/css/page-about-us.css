@@ -218,7 +218,7 @@
 	margin: 0;
 	font-size: 1.08rem;
 	line-height: 1.8;
-	color: rgba(255, 255, 255, 0.86);
+	color: #ffffff;
 }
 
 .about-process__media {
@@ -270,7 +270,7 @@
 	margin: 0;
 	font-size: 1rem;
 	line-height: 1.75;
-	color: rgba(255, 255, 255, 0.86);
+	color: #ffffff;
 }
 
 @media (max-width: 1200px) {
