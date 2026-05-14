@@ -7,10 +7,10 @@
 				<a class="tcube-footer__logo-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 					<img
 						class="tcube-footer__logo"
-						src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/logo-the-tech-sang.png' ); ?>"
+						src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/tech-sang-footer-logo.png' ); ?>"
 						alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>"
 						width="200"
-						height="106"
+						height="95"
 						loading="lazy"
 					>
 				</a>

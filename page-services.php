@@ -27,10 +27,10 @@ get_header();
 			'primary_href'    => '#services-offerings',
 			'secondary_label' => __( 'Topics We Cover', 'thetcube' ),
 			'secondary_href'  => '#services-topics',
-			'image'           => get_template_directory_uri() . '/assets/images/home/hero-main.webp',
-			'image_alt'       => __( 'TECH SANG training collaboration', 'thetcube' ),
-			'image_width'     => 928,
-			'image_height'    => 1000,
+			'image'           => get_template_directory_uri() . '/assets/images/services/hero-service.webp',
+			'image_alt'       => __( 'Professionals collaborating during a TECH SANG service session', 'thetcube' ),
+			'image_width'     => 1200,
+			'image_height'    => 800,
 		)
 	);
 	?>

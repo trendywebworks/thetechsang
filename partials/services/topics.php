@@ -13,10 +13,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<div class="services-topics__grid">
 		<div class="services-topics__media">
 			<img
-				src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/services/topics-main.webp' ); ?>"
-				alt="<?php esc_attr_e( 'IT training collaboration', 'thetcube' ); ?>"
-				width="1500"
-				height="1500"
+				src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/services/topics-we-cover.webp' ); ?>"
+				alt="<?php esc_attr_e( 'Professionals discussing topics covered in TECH SANG sessions', 'thetcube' ); ?>"
+				width="1920"
+				height="1281"
 				loading="lazy"
 			>
 		</div>
