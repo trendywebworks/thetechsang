@@ -78,14 +78,8 @@ img {
 	color: #000000 !important;
 }
 
-p.about-process__lead,
-li.about-process__step p.tcube-reveal,
-p.services-topics__lead {
-	color: #ffffff !important;
-}
-
-.site-main .about-process p,
-.site-main .services-topics__panel p,
+.site-main .about-process p:not(.about-section-eyebrow):not(.organizations-main__eyebrow),
+.site-main .services-topics__panel p:not(.about-section-eyebrow):not(.organizations-main__eyebrow),
 .tcube-footer p {
 	color: #ffffff !important;
 }
