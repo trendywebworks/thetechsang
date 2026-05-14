@@ -129,6 +129,10 @@
 	background-color: rgba(18, 18, 18, 0.8);
 }
 
+.services-topics__panel p {
+	color: #ffffff;
+}
+
 .services-topics__inner {
 	position: relative;
 	z-index: 1;

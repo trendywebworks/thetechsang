@@ -198,6 +198,10 @@
 		#08111f;
 }
 
+.about-process p {
+	color: #ffffff;
+}
+
 .about-process__intro {
 	display: grid;
 	grid-template-columns: minmax(0, 1fr) minmax(320px, 0.9fr);
