@@ -155,7 +155,7 @@ img {
 	position: relative;
 	z-index: 1;
 	display: grid;
-	grid-template-columns: auto minmax(0, 1fr) auto;
+	grid-template-columns: auto minmax(0, 1fr);
 	align-items: center;
 	column-gap: clamp(20px, 4vw, 56px);
 	padding-top: 10px;
@@ -170,8 +170,7 @@ img {
 }
 
 .tcube-header__brand,
-.tcube-nav,
-.tcube-header__cta {
+.tcube-nav {
 	align-self: center;
 }
 
@@ -189,7 +188,9 @@ img {
 	position: relative;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: flex-end;
+	justify-self: end;
+	width: 100%;
 }
 
 .tcube-mobile-nav {
@@ -198,7 +199,7 @@ img {
 
 .tcube-nav__list {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
 	align-items: center;
 	flex-wrap: wrap;
 	gap: 15px;
@@ -290,11 +291,6 @@ img {
 .tcube-nav .sub-menu .menu-item-has-children>.sub-menu {
 	top: 0;
 	left: 110%;
-}
-
-.tcube-header__cta {
-	display: flex;
-	justify-content: flex-end;
 }
 
 .tcube-btn {
@@ -477,10 +473,6 @@ img {
 		grid-column: 1;
 		grid-row: 1;
 		width: 100%;
-	}
-
-	.tcube-header__cta {
-		display: none;
 	}
 
 	.tcube-menu-toggle {
