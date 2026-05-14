@@ -71,6 +71,23 @@ img {
 	background: var(--tcube-bg);
 }
 
+.site-main p:not(.about-section-eyebrow):not(.organizations-main__eyebrow),
+.tcube-footer p {
+	font-size: 16px !important;
+	font-weight: 400 !important;
+	color: #000000 !important;
+}
+
+.site-main .about-process p,
+.site-main .services-topics__panel p,
+.tcube-footer p {
+	color: #ffffff !important;
+}
+
+.site-main .about-process .about-section-eyebrow {
+	color: #ffffff;
+}
+
 .screen-reader-text {
 	position: absolute;
 	width: 1px;
