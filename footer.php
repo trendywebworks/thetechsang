@@ -60,5 +60,11 @@
 </footer>
 
 <?php wp_footer(); ?>
+
+<style>
+.txt-white {
+	color: #fff!important;
+}
+</style>	
 </body>
 </html>
