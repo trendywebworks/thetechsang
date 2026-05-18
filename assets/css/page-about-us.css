@@ -95,6 +95,8 @@
 .about-story__media {
 	order: -1;
 	min-height: 380px;
+	position: sticky;
+	top: 32px;
 }
 
 .about-info-card {
@@ -303,6 +305,8 @@
 
 	.about-story__media {
 		order: 0;
+		position: static;
+		top: auto;
 	}
 
 	.about-offerings__media {

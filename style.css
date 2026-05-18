@@ -634,6 +634,12 @@ img {
 	color: #ffffff;
 }
 
+.tcube-footer__social .tcube-footer__social-link--linkedin,
+.tcube-footer__social .tcube-footer__social-link--linkedin:hover,
+.tcube-footer__social .tcube-footer__social-link--linkedin:focus-visible {
+	color: #0a66c2;
+}
+
 .tcube-footer__social svg {
 	width: 30px;
 	height: 30px;
