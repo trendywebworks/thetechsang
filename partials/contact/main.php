@@ -29,20 +29,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 					<?php esc_html_e( '+91 80080 01654', 'thetcube' ); ?>
 				</a>
 			</div>
-
-			<div class="contact-main__form" id="contact-form">
-				<?php
-					if ( shortcode_exists( 'contact-form-7' ) ) {
-					echo do_shortcode( '[contact-form-7 id="43" title="Contact form"]' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-				} else {
-					?>
-					<p class="contact-main__form-note">
-						<?php esc_html_e( 'Activate Contact Form 7 to display the contact form shortcode here.', 'thetcube' ); ?>
-					</p>
-					<?php
-				}
-				?>
-			</div>
 		</div>
 	</div>
 </section>
