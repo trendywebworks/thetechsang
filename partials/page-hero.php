@@ -42,6 +42,10 @@ $hero_title_id = 'tcube-page-hero-title-' . sanitize_html_class( $hero_args['id_
 				<p><?php echo esc_html( $paragraph ); ?></p>
 			<?php endforeach; ?>
 
+			<?php if ( ! empty( $args['phone_html'] ) ) : ?>
+				<?php echo wp_kses_post( $args['phone_html'] ); ?>
+			<?php endif; ?>
+
 			<?php if ( ! empty( $hero_args['primary_label'] ) || ! empty( $hero_args['secondary_label'] ) ) : ?>
 				<div class="tcube-page-hero__actions">
 					<?php if ( ! empty( $hero_args['primary_label'] ) ) : ?>
