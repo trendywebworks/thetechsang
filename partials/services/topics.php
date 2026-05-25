@@ -28,7 +28,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 				<p class="services-topics__lead txt-white">Rather than covering every subject, we prioritize niche, high-impact, and future-relevant topics that matter across industries.</p>
 
-				<p class="services-topics__lead txt-white">What You Can Expect</p>
+				<h3 class="services-topics__lead txt-white">What You Can Expect</h3>
 
 				<p class="services-topics__lead txt-white">Our learning themes are designed to be:</p>
 				<ul class="services-topics__list">
