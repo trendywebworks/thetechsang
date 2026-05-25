@@ -13,12 +13,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<div class="tcube-container">
 		<div class="professionals-main__grid">
 			<div class="professionals-main__content">
-				<h2 id="professionals-main-title" class="professionals-main__title">
-					<?php esc_html_e( 'For Professionals Who Love to Teach', 'thetcube' ); ?>
-				</h2>
 
 				<p class="professionals-main__intro">
-					<?php esc_html_e( 'If you have ever felt the urge to explain, guide, or share what you know - TECH SANG gives that passion a platform.', 'thetcube' ); ?>
+					<?php esc_html_e( 'If you have ever felt the urge to explain, guide, or share what you know - Tech Sang gives that passion a platform.', 'thetcube' ); ?>
 				</p>
 
 				<p class="professionals-main__intro">

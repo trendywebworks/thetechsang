@@ -16,8 +16,8 @@ get_header();
 		array(
 			'id_suffix'       => 'professionals',
 			'title_lines'     => array(
-				__( 'SHARE WHAT', 'thetcube' ),
-				__( 'YOU KNOW', 'thetcube' ),
+				__( 'FOR PROFESSIONALS', 'thetcube' ),
+				__( 'WHO LOVE TO TEACH', 'thetcube' ),
 			),
 			'paragraphs'      => array(
 				__( 'Turn your experience into meaningful learning for teams and professionals who want practical, real-world guidance.', 'thetcube' ),

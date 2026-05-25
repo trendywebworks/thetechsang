@@ -13,12 +13,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<div class="tcube-container">
 		<div class="organizations-main__grid">
 			<div class="organizations-main__content">
-				<p class="organizations-main__eyebrow"><?php esc_html_e( 'For Organizations', 'thetcube' ); ?></p>
-
-				<h2 id="organizations-main-title" class="organizations-main__title">
-					<span class="organizations-main__title-line"><?php esc_html_e( 'LOOKING TO', 'thetcube' ); ?></span>
-					<span class="organizations-main__title-line"><?php esc_html_e( 'UPSKILL YOUR TEAMS', 'thetcube' ); ?></span>
-				</h2>
 
 				<p class="organizations-main__intro">
 					<?php esc_html_e( 'Your teams need to stay sharp. Your business needs people who can think, adapt, and perform.', 'thetcube' ); ?>
