@@ -25,6 +25,7 @@ get_header();
 				__( 'Hello Organizations / Companies:', 'thetcube' ),
 				__( 'Looking for experienced trainers for employee learning, upskilling, or workshops? Connect with TECH SANG for practical training solutions across industries and domains.', 'thetcube' ),
 			),
+			'phone_html'      => '<a class="contact-main__phone" href="tel:+918008001654">+91 80080 01654</a>',
 			'image'           => get_template_directory_uri() . '/assets/images/contact/hero-contact.webp',
 			'image_alt'       => __( 'TECH SANG training collaboration', 'thetcube' ),
 			'image_width'     => 928,
@@ -32,7 +33,7 @@ get_header();
 		)
 	);
 	?>
-	<?php get_template_part( 'partials/contact/main' ); ?>
+	<?php //get_template_part( 'partials/contact/main' ); ?>
 </div>
 <?php
 get_footer();
