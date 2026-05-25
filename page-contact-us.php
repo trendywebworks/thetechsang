@@ -16,7 +16,7 @@ get_header();
 		array(
 			'id_suffix'       => 'contact',
 			'title_lines'     => array(
-				__( 'LET US', 'thetcube' ),
+				__( 'LET&#39;S', 'thetcube' ),
 				__( 'CONNECT', 'thetcube' ),
 			),
 			'paragraphs'      => array(
