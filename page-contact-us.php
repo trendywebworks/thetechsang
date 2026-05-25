@@ -20,8 +20,10 @@ get_header();
 				__( 'CONNECT', 'thetcube' ),
 			),
 			'paragraphs'      => array(
-				__( 'Tell us what you need, what you are planning, or how we can help you move learning forward.', 'thetcube' ),
-				__( 'Reach out for training requirements, collaboration, or general inquiries and we will get back to you directly.', 'thetcube' ),
+				__( 'Hello Working Professionals / Trainers:', 'thetcube' ),
+				__( 'Passionate about teaching, training, and sharing knowledge? Reach out to TECH SANG and explore opportunities to become a trainer and conduct impactful workshops.', 'thetcube' ),
+				__( 'Hello Organizations / Companies:', 'thetcube' ),
+				__( 'Looking for experienced trainers for employee learning, upskilling, or workshops? Connect with TECH SANG for practical training solutions across industries and domains.', 'thetcube' ),
 			),
 			'image'           => get_template_directory_uri() . '/assets/images/contact/hero-contact.webp',
 			'image_alt'       => __( 'TECH SANG training collaboration', 'thetcube' ),

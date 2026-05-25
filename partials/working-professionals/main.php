@@ -12,19 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 <section class="professionals-main" id="professionals-overview" aria-labelledby="professionals-main-title">
 	<div class="tcube-container">
 		<div class="professionals-main__grid">
-			<div class="professionals-main__content">
-
-				<p class="professionals-main__intro">
-					<?php esc_html_e( 'If you have ever felt the urge to explain, guide, or share what you know - Tech Sang gives that passion a platform.', 'thetcube' ); ?>
-				</p>
-
-				<p class="professionals-main__intro">
-					<?php esc_html_e( 'We are building a network of working professionals (10+ years experience) who genuinely enjoy teaching, mentoring, and conducting sessions.', 'thetcube' ); ?>
-				</p>
-
-				<p class="professionals-main__intro">
-					<?php esc_html_e( 'This is not just about training - it is about bringing your passion for teaching into action.', 'thetcube' ); ?>
-				</p>
+			<div class="professionals-main__content">				
 
 				<h2 class="professionals-main__subtitle">
 					<?php esc_html_e( 'Who Should Join:', 'thetcube' ); ?>

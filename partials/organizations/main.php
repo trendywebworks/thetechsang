@@ -12,19 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 <section class="organizations-main" id="organizations-overview" aria-labelledby="organizations-main-title">
 	<div class="tcube-container">
 		<div class="organizations-main__grid">
-			<div class="organizations-main__content">
-
-				<p class="organizations-main__intro">
-					<?php esc_html_e( 'Your teams need to stay sharp. Your business needs people who can think, adapt, and perform.', 'thetcube' ); ?>
-				</p>
-
-				<p class="organizations-main__intro">
-					<?php esc_html_e( 'TECH SANG helps you make that happen.', 'thetcube' ); ?>
-				</p>
-
-				<p class="organizations-main__intro">
-					<?php esc_html_e( 'We connect you with experienced professionals who bring practical knowledge and real-world insights into every session. Whether it is technical skills, domain expertise, or workplace capabilities - we help you find the right trainer for your requirement.', 'thetcube' ); ?>
-				</p>
+			<div class="organizations-main__content">				
 
 				<h2 class="organizations-main__subtitle">
 					<?php esc_html_e( 'Why Companies Choose TECH SANG:', 'thetcube' ); ?>
