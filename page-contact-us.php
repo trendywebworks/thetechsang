@@ -20,9 +20,9 @@ get_header();
 				__( 'CONNECT', 'thetcube' ),
 			),
 			'paragraphs' => array(
-				'<h3>' . __( 'Hello Working Professionals / Trainers:', 'thetcube' ) . '</h3>',
+				'' . __( '<h3>Hello Working Professionals / Trainers:</h3>', 'thetcube' ) . '',
 				__( 'Passionate about teaching, training, and sharing knowledge? Reach out to TECH SANG and explore opportunities to become a trainer and conduct impactful workshops.', 'thetcube' ),
-				'<h3>' . __( 'Hello Organizations / Companies:', 'thetcube' ) . '</h3>',
+				'' . __( '<h3>Hello Organizations / Companies:</h3>', 'thetcube' ) . '',
 				__( 'Looking for experienced trainers for employee learning, upskilling, or workshops? Connect with TECH SANG for practical training solutions across industries and domains.', 'thetcube' ),
 			),
 			'phone_html'      => '<a class="contact-main__phone" href="tel:+918008001654">+91 80080 01654</a>',
