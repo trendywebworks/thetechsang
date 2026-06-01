@@ -22,7 +22,7 @@ get_header();
 			'paragraphs'      => array(
 				__( 'Turn your experience into meaningful learning for teams and professionals who want practical, real-world guidance.', 'thetcube' ),
 				__( 'TECH SANG helps passionate working experts step into training, mentoring, and knowledge-sharing opportunities.', 'thetcube' ),
-				__( 'If you have ever felt the urge to explain, guide, or share what you know - Tech Sang gives that passion a platform.', 'thetcube' ),
+				__( 'If you have ever felt the urge to explain, guide, or share what you know <br>- Tech Sang gives that passion a platform.', 'thetcube' ),
 				__( 'We are building a network of working professionals (10+ years experience) who genuinely enjoy teaching, mentoring, and conducting sessions.', 'thetcube' ),
 				__( 'This is not just about training - it is about bringing your passion for teaching into action.', 'thetcube' ),
 			),

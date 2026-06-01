@@ -25,13 +25,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 					height="545"
 					loading="lazy"
 				>
-				<p>
-					For IT companies, we provide engaging training, workshops, and webinars to help employees
-					upskill.
-				</p>
-				<p><?php esc_html_e( 'Upskill your team today.', 'thetcube' ); ?></p>
+				<p><?php esc_html_e( 'Empower your workforce with practical, industry-focused training programs. We partner with IT companies and organizations to deliver engaging workshops, webinars, and upskilling sessions designed to enhance employee capabilities and drive business growth.', 'thetcube' ); ?></p>
+
+				<p><?php esc_html_e( 'Invest in your team&quotes success today.', 'thetcube' ); ?></p>
+
 				<a class="tcube-btn tcube-btn--gradient" href="<?php echo esc_url( home_url( '/for-organizations/' ) ); ?>">
-					<?php esc_html_e( 'Book your first session', 'thetcube' ); ?>
+					<?php esc_html_e( 'Schedule a Training Consultation', 'thetcube' ); ?>
 				</a>
 			</article>
 
@@ -48,9 +47,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 					For working professionals, we offer the opportunity to fulfill their dream of teaching and
 					inspiring others.
 				</p>
-				<p><?php esc_html_e( 'Upskill your team today.', 'thetcube' ); ?></p>
+				<p><?php esc_html_e( 'Turn your expertise into impact by sharing your knowledge with others. We provide working professionals with opportunities to become trainers, conduct workshops, and inspire learners through practical, real-world insights. Join a community of experts and take the next step in your teaching and mentoring journey.', 'thetcube' ); ?></p>
+
+				<p><?php esc_html_e( 'Start inspiring and shaping future talent today.', 'thetcube' ); ?></p>
+				
 				<a class="tcube-btn tcube-btn--gradient" href="<?php echo esc_url( home_url( '/for-working-professionals/' ) ); ?>">
-					<?php esc_html_e( 'Explore our training catalog', 'thetcube' ); ?>
+					<?php esc_html_e( 'Start Your Training Journey', 'thetcube' ); ?>
 				</a>
 			</article>
 		</div>

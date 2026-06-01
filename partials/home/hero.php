@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<span class="pink">&lsquo;SANG&rsquo;</span> is about coming together - a space to connect, share ideas, and grow.
 			</p>
 			<p>
-				TECHSANG bridges organizations and experts - connecting real learning needs with real-world
+				TECH SANG bridges organizations and experts - connecting real learning needs with real-world
 				experience.
 			</p>
 
