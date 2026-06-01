@@ -14,8 +14,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<div class="organizations-main__grid">
 			<div class="organizations-main__content">				
 
-				<h2 class="organizations-main__subtitle">
-					<?php esc_html_e( 'Why Companies Choose TECH SANG:', 'thetcube' ); ?>
+				<h2 class="professionals-main__subtitle">
+					<?php esc_html_e( 'Why Companies Choose TECH SANG', 'thetcube' ); ?>
 				</h2>
 
 				<ol class="organizations-main__list">
@@ -40,7 +40,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 			</div>
 
 			<div class="organizations-main__form-panel" id="organizations-form">
-				<h2 class="organizations-main__form-title"><?php esc_html_e( 'Hire a Tech Sang Trainer', 'thetcube' ); ?></h2>
+
+				<h2 class="professionals-main__subtitle">
+					<?php esc_html_e( 'Hire a Tech Sang Trainer', 'thetcube' ); ?>
+				</h2>
 
 				<div class="organizations-main__form-wrap">
 					<?php

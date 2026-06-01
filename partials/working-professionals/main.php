@@ -36,18 +36,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 					<li><?php esc_html_e( 'Flexible engagement - weekends / part-time / selective sessions', 'thetcube' ); ?></li>
 					<li><?php esc_html_e( 'A chance to contribute to real learning and real impact', 'thetcube' ); ?></li>
 				</ul>
-
-				<p class="professionals-main__closing">
-					<?php esc_html_e( 'This is a curated network.', 'thetcube' ); ?>
-				</p>
-
-				<p class="professionals-main__closing-note">
-					<?php esc_html_e( 'We onboard professionals who bring not just experience, but also energy, clarity, and passion for teaching.', 'thetcube' ); ?>
-				</p>
+				
 			</div>
 
 			<div class="professionals-main__form-panel" id="professionals-form">
-				<h2 class="professionals-main__form-title"><?php esc_html_e( 'Become a Tech Sang Trainer', 'thetcube' ); ?></h2>
+
+				<h2 class="professionals-main__subtitle">
+					<?php esc_html_e( 'Become a Tech Sang Trainer', 'thetcube' ); ?>
+				</h2>
 
 				<div class="professionals-main__form-wrap">
 					<?php
