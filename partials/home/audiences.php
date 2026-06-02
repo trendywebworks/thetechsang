@@ -43,11 +43,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 					height="545"
 					loading="lazy"
 				>
-				<p>
-					For working professionals, we offer the opportunity to fulfill their dream of teaching and
-					inspiring others.
-				</p>
-				<p><?php esc_html_e( 'Turn your expertise into impact by sharing your knowledge with others. We provide working professionals with opportunities to become trainers, conduct workshops, and inspire learners through practical, real-world insights. Join a community of experts and take the next step in your teaching and mentoring journey.', 'thetcube' ); ?></p>
+				<p><?php esc_html_e( 'Turn your expertise into impact by sharing practical, real-world knowledge with others. We give working professionals opportunities to become trainers, conduct workshops, and inspire learners while growing their teaching and mentoring journey.', 'thetcube' ); ?></p>
 
 				<p><?php esc_html_e( 'Start inspiring and shaping future talent today.', 'thetcube' ); ?></p>
 				
