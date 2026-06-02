@@ -39,7 +39,11 @@ $hero_title_id = 'tcube-page-hero-title-' . sanitize_html_class( $hero_args['id_
 			</h1>
 
 			<?php foreach ( $hero_args['paragraphs'] as $paragraph ) : ?>
-				<p><?php echo esc_html( $paragraph ); ?></p>
+				<?php if ( preg_match( '/^\s*<h[1-6]\b/i', $paragraph ) ) : ?>
+					<?php echo wp_kses_post( $paragraph ); ?>
+				<?php else : ?>
+					<p><?php echo wp_kses_post( $paragraph ); ?></p>
+				<?php endif; ?>
 			<?php endforeach; ?>
 
 			<?php if ( ! empty( $args['phone_html'] ) ) : ?>
