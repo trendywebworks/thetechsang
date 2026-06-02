@@ -757,7 +757,7 @@ img {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap: 14px;
+	gap: 10px;
 	padding: 0 0 36px;
 }
 
@@ -767,6 +767,7 @@ img {
 	line-height: 1.889;
 	font-weight: 500;
 	color: rgba(153, 153, 153, 0.6);
+	white-space: nowrap;
 }
 
 @media (max-width: 1024px) {
@@ -825,13 +826,17 @@ img {
 	}
 
 	.tcube-footer__bottom {
-		flex-wrap: wrap;
 		padding-top: 0;
 		padding-bottom: 30px;
 	}
 
 	.tcube-footer__bottom p {
-		font-size: 16px;
+		font-size: 14px;
 		text-align: center;
+	}
+
+	.tcube-footer__social svg {
+		width: 24px;
+		height: 24px;
 	}
 }
