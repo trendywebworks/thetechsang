@@ -68,10 +68,6 @@ $hero_slides = array_fill( 0, 3, $hero_slide );
 	</div>
 
 	<div class="home-hero__controls" aria-label="<?php esc_attr_e( 'Hero slider controls', 'thetcube' ); ?>">
-		<button class="home-hero__arrow home-hero__arrow--prev" type="button" aria-label="<?php esc_attr_e( 'Show previous slide', 'thetcube' ); ?>" data-home-hero-prev>
-			<span aria-hidden="true">&lsaquo;</span>
-		</button>
-
 		<div class="home-hero__dots" role="tablist" aria-label="<?php esc_attr_e( 'Choose hero slide', 'thetcube' ); ?>">
 			<?php foreach ( $hero_slides as $index => $slide ) : ?>
 				<button
@@ -84,9 +80,5 @@ $hero_slides = array_fill( 0, 3, $hero_slide );
 				></button>
 			<?php endforeach; ?>
 		</div>
-
-		<button class="home-hero__arrow home-hero__arrow--next" type="button" aria-label="<?php esc_attr_e( 'Show next slide', 'thetcube' ); ?>" data-home-hero-next>
-			<span aria-hidden="true">&rsaquo;</span>
-		</button>
 	</div>
 </section>

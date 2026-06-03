@@ -121,8 +121,6 @@
 		const track = slider.querySelector(".home-hero__track");
 		const slides = Array.from(slider.querySelectorAll(".home-hero__slide"));
 		const dots = Array.from(slider.querySelectorAll("[data-home-hero-dot]"));
-		const prevButton = slider.querySelector("[data-home-hero-prev]");
-		const nextButton = slider.querySelector("[data-home-hero-next]");
 
 		if (!track || slides.length <= 1) {
 			return;
@@ -165,18 +163,6 @@
 				setActiveSlide(activeIndex + 1);
 			}, 6000);
 		};
-
-		prevButton?.addEventListener("click", () => {
-			setActiveSlide(activeIndex - 1);
-			stopAutoplay();
-			startAutoplay();
-		});
-
-		nextButton?.addEventListener("click", () => {
-			setActiveSlide(activeIndex + 1);
-			stopAutoplay();
-			startAutoplay();
-		});
 
 		dots.forEach((dot) => {
 			dot.addEventListener("click", () => {

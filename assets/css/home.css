@@ -96,34 +96,11 @@
 	pointer-events: none;
 }
 
-.home-hero__arrow,
 .home-hero__dot {
 	appearance: none;
 	border: 0;
 	cursor: pointer;
 	pointer-events: auto;
-}
-
-.home-hero__arrow {
-	display: inline-grid;
-	place-items: center;
-	width: 42px;
-	height: 42px;
-	padding: 0 0 3px;
-	border-radius: 50%;
-	background-color: #ffffff;
-	box-shadow: 0 12px 30px rgba(18, 18, 18, 0.12);
-	color: #121212;
-	font-size: 2.125rem;
-	line-height: 1;
-	transition: color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.home-hero__arrow:hover,
-.home-hero__arrow:focus-visible {
-	color: #082ec7;
-	transform: translateY(-1px);
-	box-shadow: 0 16px 34px rgba(18, 18, 18, 0.16);
 }
 
 .home-hero__dots {
@@ -317,13 +294,6 @@
 
 	.home-hero__controls {
 		bottom: 22px;
-		gap: 12px;
-	}
-
-	.home-hero__arrow {
-		width: 36px;
-		height: 36px;
-		font-size: 1.875rem;
 	}
 
 	.home-hero__dots {
@@ -343,7 +313,6 @@
 
 @media (prefers-reduced-motion: reduce) {
 	.home-hero__track,
-	.home-hero__arrow,
 	.home-hero__dot {
 		transition: none;
 	}
