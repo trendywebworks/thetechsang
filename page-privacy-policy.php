@@ -85,7 +85,7 @@ get_header();
 				<address>
 					<strong><?php esc_html_e( 'TECH SANG', 'thetcube' ); ?></strong><br>
 					<?php esc_html_e( 'Website:', 'thetcube' ); ?> <a href="https://thetechsang.com/">https://thetechsang.com/</a><br>
-					<?php esc_html_e( 'Email:', 'thetcube' ); ?><br>
+					<?php esc_html_e( 'Email:', 'thetcube' ); ?> <a href="mailto:thetechsang@gmail.com">thetechsang@gmail.com</a><br>
 					<?php esc_html_e( 'Phone:', 'thetcube' ); ?> <a href="tel:+918008001654">+91 8008001654</a>
 				</address>
 			</div>
