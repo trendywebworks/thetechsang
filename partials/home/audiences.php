@@ -25,12 +25,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 					height="545"
 					loading="lazy"
 				>
-				<p><?php esc_html_e( 'Empower your workforce with practical, industry-focused training programs. We partner with IT companies and organizations to deliver engaging workshops, webinars, and upskilling sessions designed to enhance employee capabilities and drive business growth.', 'thetcube' ); ?></p>
+				<p><?php esc_html_e( 'Empower your workforce with practical, industry-focused training programs. We partner with companies and organizations to deliver engaging workshops, webinars, and upskilling sessions designed to enhance employee capabilities and drive business growth.', 'thetcube' ); ?></p>
 
 				<p><?php esc_html_e( "Invest in your team's success today.", 'thetcube' ); ?></p>
 
 				<a class="tcube-btn tcube-btn--gradient" href="<?php echo esc_url( home_url( '/for-organizations/' ) ); ?>">
-					<?php esc_html_e( 'Schedule a Training Consultation', 'thetcube' ); ?>
+					<?php esc_html_e( 'Book your Training Session', 'thetcube' ); ?>
 				</a>
 			</article>
 
@@ -48,7 +48,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<p><?php esc_html_e( 'Start shaping future talent today.', 'thetcube' ); ?></p>
 				
 				<a class="tcube-btn tcube-btn--gradient" href="<?php echo esc_url( home_url( '/for-working-professionals/' ) ); ?>">
-					<?php esc_html_e( 'Start Your Training Journey', 'thetcube' ); ?>
+					<?php esc_html_e( 'Become a Trainer', 'thetcube' ); ?>
 				</a>
 			</article>
 		</div>
