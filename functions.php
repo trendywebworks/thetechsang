@@ -89,6 +89,7 @@ if ( ! function_exists( 'thetcube_enqueue_assets' ) ) {
 			$template_css  = array(
 				'page-for-organizations.php' => '/assets/css/page-for-organizations.css',
 				'page-for-working-professionals.php' => '/assets/css/page-for-working-professionals.css',
+				'page-privacy-policy.php' => '/assets/css/page-privacy-policy.css',
 			);
 
 			if ( ! empty( $template_slug ) && isset( $template_css[ $template_slug ] ) ) {
