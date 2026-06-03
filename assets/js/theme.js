@@ -112,6 +112,90 @@
 		revealItems.forEach((element) => observer.observe(element));
 	};
 
+	const initHomeHeroSlider = () => {
+		const slider = document.querySelector("[data-home-hero-slider]");
+		if (!slider) {
+			return;
+		}
+
+		const track = slider.querySelector(".home-hero__track");
+		const slides = Array.from(slider.querySelectorAll(".home-hero__slide"));
+		const dots = Array.from(slider.querySelectorAll("[data-home-hero-dot]"));
+		const prevButton = slider.querySelector("[data-home-hero-prev]");
+		const nextButton = slider.querySelector("[data-home-hero-next]");
+
+		if (!track || slides.length <= 1) {
+			return;
+		}
+
+		const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+		let activeIndex = 0;
+		let autoplayTimer = null;
+
+		const setActiveSlide = (nextIndex) => {
+			activeIndex = (nextIndex + slides.length) % slides.length;
+			track.style.transform = `translateX(-${activeIndex * 100}%)`;
+
+			slides.forEach((slide, index) => {
+				const isActive = index === activeIndex;
+				slide.classList.toggle("is-active", isActive);
+				slide.setAttribute("aria-hidden", isActive ? "false" : "true");
+			});
+
+			dots.forEach((dot, index) => {
+				const isActive = index === activeIndex;
+				dot.classList.toggle("is-active", isActive);
+				dot.setAttribute("aria-selected", isActive ? "true" : "false");
+			});
+		};
+
+		const stopAutoplay = () => {
+			if (autoplayTimer) {
+				window.clearInterval(autoplayTimer);
+				autoplayTimer = null;
+			}
+		};
+
+		const startAutoplay = () => {
+			if (reduceMotion || autoplayTimer) {
+				return;
+			}
+
+			autoplayTimer = window.setInterval(() => {
+				setActiveSlide(activeIndex + 1);
+			}, 6000);
+		};
+
+		prevButton?.addEventListener("click", () => {
+			setActiveSlide(activeIndex - 1);
+			stopAutoplay();
+			startAutoplay();
+		});
+
+		nextButton?.addEventListener("click", () => {
+			setActiveSlide(activeIndex + 1);
+			stopAutoplay();
+			startAutoplay();
+		});
+
+		dots.forEach((dot) => {
+			dot.addEventListener("click", () => {
+				setActiveSlide(Number(dot.dataset.homeHeroDot));
+				stopAutoplay();
+				startAutoplay();
+			});
+		});
+
+		slider.addEventListener("mouseenter", stopAutoplay);
+		slider.addEventListener("mouseleave", startAutoplay);
+		slider.addEventListener("focusin", stopAutoplay);
+		slider.addEventListener("focusout", startAutoplay);
+
+		setActiveSlide(0);
+		startAutoplay();
+	};
+
 	initMobileMenu();
 	initScrollReveal();
+	initHomeHeroSlider();
 })();
