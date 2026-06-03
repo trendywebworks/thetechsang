@@ -18,12 +18,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<div class="home-pillars__grid">
 			<article class="home-pillar-card">
 				<h3><?php esc_html_e( 'Authentic', 'thetcube' ); ?></h3>
-				<p><?php esc_html_e( 'Delivered by people who genuinely love teaching.', 'thetcube' ); ?></p>
+				<p><?php esc_html_e( 'Delivered by people who genuinely love teaching. Driven by passion, purpose, and a real desire to share knowledge.', 'thetcube' ); ?></p>
 			</article>
 
 			<article class="home-pillar-card">
 				<h3><?php esc_html_e( 'Practical', 'thetcube' ); ?></h3>
-				<p><?php esc_html_e( 'Built on real-world industry experience.', 'thetcube' ); ?></p>
+				<p><?php esc_html_e( 'Built on real-world industry experience. Focused on skills, insights, and learning that truly matter at work.', 'thetcube' ); ?></p>
 			</article>
 
 			<article class="home-pillar-card">

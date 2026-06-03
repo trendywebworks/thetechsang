@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 			<article class="services-card">
 				<h2><?php esc_html_e( 'Seminars', 'thetcube' ); ?></h2>
-				<p class="services-card__desc"><?php esc_html_e( 'Structured discussions on trending IT topics.', 'thetcube' ); ?></p>
+				<p class="services-card__desc"><?php esc_html_e( 'Structured discussions on trending topics.', 'thetcube' ); ?></p>
 			</article>
 
 			<article class="services-card">

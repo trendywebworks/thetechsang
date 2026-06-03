@@ -66,6 +66,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<li><?php esc_html_e( 'Infrastructure & Engineering', 'thetcube' ); ?></li>
 				<li><?php esc_html_e( 'Entertainment & Media', 'thetcube' ); ?></li>
 				<li><?php esc_html_e( 'Finance & Banking', 'thetcube' ); ?></li>
+				<li><?php esc_html_e( 'Others', 'thetcube' ); ?></li>
 			</ul>
 		</article>
 	</div>

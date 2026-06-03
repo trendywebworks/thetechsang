@@ -29,14 +29,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<p class="organizations-main__closing">
 					<?php esc_html_e( 'At TS, training is not a formality - it is a focused, outcome-driven experience.', 'thetcube' ); ?>
 				</p>
-
-				<p class="organizations-main__contact">
-					<?php esc_html_e( 'Call us directly to discuss your requirement', 'thetcube' ); ?>
-				</p>
-
-				<p class="organizations-main__contact-note">
-					<?php esc_html_e( '(No long forms. Just real conversations.)', 'thetcube' ); ?>
-				</p>
+				
 			</div>
 
 			<div class="organizations-main__form-panel" id="organizations-form">

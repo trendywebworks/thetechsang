@@ -13,8 +13,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<div class="tcube-container home-hero__inner">
 		<div class="home-hero__content">
 			<h1 id="home-hero-title" class="home-hero__title">
-				<span class="home-hero__title-line">NOT JUST TECH.</span>
-				<span class="home-hero__title-line">A SANG OF MINDS</span>
+				<span class="home-hero__title-line">NOT JUST TECH,</span>
+				<span class="home-hero__title-line">A SANG OF MINDS.</span>
 			</h1>
 			<p>
 				<span class="blue">&lsquo;TECH&rsquo;</span> is beyond technology - it represents knowledge, skills, and expertise across
